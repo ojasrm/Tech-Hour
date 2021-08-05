@@ -1,0 +1,10 @@
+@mixin font-style{
+    font-family: sans-serif;
+    font-size: 35px;
+    color: $col;
+}
+@mixin btn-style($btn-col, $btn-size){
+    color: $btn-col;
+    font-size: $btn-size;
+    background-color: beige;
+}

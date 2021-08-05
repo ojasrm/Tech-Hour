@@ -1,0 +1,24 @@
+@import "variables";
+@import "mixins";
+
+#welcome{
+    @include font-style();
+    h1{
+        font-size: $size;
+    }
+    li{
+        background-color: lightpink;
+    }
+    button{
+        @include btn-style($btn-col, $btn-size);
+    }
+}
+h2{
+    color: darken($color: grey, $amount: 20);
+    background-color: lighten($color: hotpink, $amount: 20);
+}
+#contact{
+    p{
+        @extend h2;
+    }
+}
