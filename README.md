@@ -1,4 +1,3 @@
 # Tech-Hour
 Tech Hour codes
-Codes explaining CSS pre-processors
-SASS(SCSS)
+Tech Hour 1: CSS pre-processors
